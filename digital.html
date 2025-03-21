@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyxnshu Digital Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #222;
+            color: white;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .nav-right {
+            display: flex;
+            align-items: center;
+        }
+        .search-bar {
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .btn-login {
+            padding: 8px 15px;
+            font-size: 16px;
+            border: none;
+            background-color: #ff6b6b;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn-login:hover {
+            background-color: #ff4f4f;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .hero img {
+            width: 50%;
+            border-radius: 10px;
+        }
+        .hero-content {
+            width: 40%;
+        }
+        .hero-content h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .hero-content p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            background-color: #ff6b6b;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #ff4f4f;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>Priyxnshu Digital</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <button class="btn-login">Login</button>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Priyxnshu Digital</h1>
+            <p>Your one-stop destination for the latest digital products and services. Discover high-quality solutions tailored for your needs.</p>
+            <button class="btn">Shop Now</button>
+        </div>
+        <img src="image/lbpn-design.jpg " alt="Digital Products">
+    </section>
+</body>
+</html>
